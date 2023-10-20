@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+
+header{
+    background: linear-gradient(to right,black,#1db954);
+    height: 50px;
+    position: fixed;
+    width: 100%;
+    border-bottom: #1db954 1px solid;
+    
+}
+
+#logo{
+    color: #1db954;
+    margin-top: 5px;
+    float: left;
+    margin-left: 5%;
+    display: flex;
+}
+
+
+#logo-foto{
+    border-radius: 80%;
+    width: 40px;
+    margin-right: 5px;
+}
+
+#menu{
+    margin-top: 15px;
+    color: white;
+    float: right;
+    margin-right: 5%;
+}
+
+.elementoMenu{
+    margin: 0px 10px;
+    cursor: pointer;
+    text-decoration: none;
+    color: white;
+}
+
+.elementoMenu:hover{
+    transition: 0.5s;
+    color: black;
+}
+
+#conteudo-principal{
+    padding: 60px;
+    background: url("./imagens-utilizadas/music-vinyl-simple-background-minimalism-wallpaper-preview.jpg") no-repeat center center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-sizing: border-box;
+    background-size: cover;
+}
+
+#container{
+   box-sizing: border-box;
+   margin-top: 30px;
+   width: 70%;
+   border: gray 1px solid;
+   color: white;
+   padding:10px 100px 0 100px;
+   height: 72.5vh;
+   display: flex;
+   flex-direction: column;
+   background-color: black;
+}
+
+#container p{
+    font-size: 30px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.pergunta{
+    width: 100%;
+    border: 1px solid gray;
+    margin-bottom: 25px;
+    font-size: 17px;
+    padding: 10px;
+}
+
+footer{
+    color: white;
+    background: black;
+    height: 30px;
+    border-top: #1db954 solid 1px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}

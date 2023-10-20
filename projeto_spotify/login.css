@@ -1,0 +1,144 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+
+header{
+    background: linear-gradient(to right,black,#1db954);
+    height: 50px;
+    position: fixed;
+    width: 100%;
+    border-bottom: #1db954 1px solid;
+    
+}
+
+#logo{
+    color: #1db954;
+    margin-top: 5px;
+    float: left;
+    margin-left: 5%;
+    display: flex;
+}
+
+
+#logo-foto{
+    border-radius: 80%;
+    width: 40px;
+    margin-right: 5px;
+}
+
+#menu{
+    margin-top: 15px;
+    color: white;
+    float: right;
+    margin-right: 5%;
+}
+
+.elementoMenu{
+    margin: 0px 10px;
+    cursor: pointer;
+    text-decoration: none;
+    color: white;
+}
+
+.elementoMenu:hover{
+    transition: 0.5s;
+    color: black;
+}
+
+#conteudo-principal{
+    padding-top: 50px;
+    margin: 0 auto;
+    background: linear-gradient(gray,black);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 92.4vh;
+}
+
+#container{
+    margin-top: 20px;
+    background-color: black;
+    color: white;
+    border-radius: 20px;
+    padding: 10px 100px 0 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 70%;
+    height: 92.4vh;
+    box-sizing: border-box;
+}
+
+#texto-container{
+    width: 100%;
+    border-bottom: gray 1px solid;
+    margin-bottom:30px;
+    text-align: center;
+    padding: 15px 0;
+}
+
+
+
+.textBox{
+    box-sizing: border-box;
+    background-color: black;
+    border: 1px solid gray;
+    font-size: 15px;
+    padding: 5px;
+    border-radius: 5px;
+    margin: 10px;
+    width: 60%;
+    color: white;
+}
+
+button{
+    box-sizing: border-box;
+    width: 60%;
+    color: black;
+    background-color: #1db954;
+    padding: 15px;
+    border-radius: 30px;
+    font-weight: bold;
+    font-size: 15px;
+    border: none;
+    margin: 30px 0;
+    cursor: pointer;
+
+}
+
+button:hover{
+    color: #1db954;
+    background-color: black;
+    border:1px solid #1db954;
+    box-sizing: border-box;
+    padding: 14px;
+}
+
+#esqueceu-senha{
+    text-decoration: underline;
+    cursor: pointer;
+    border-bottom: solid 1px gray;
+    padding-bottom: 30px;
+    width: 100%;
+    text-align: center;
+}
+
+#esqueceu-senha:hover{
+    transition: 0.5s;
+    color: #1db954;
+}
+
+#registre-se{
+    text-decoration: underline;
+    cursor: pointer;
+    width: 100%;
+    text-align: center;
+    margin-top: 30px;
+}
+
+#registre-se:hover{
+    transition: 0.5s;
+    color: #1db954;
+}
